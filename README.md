@@ -4,15 +4,21 @@
 
 #### By Malaz Naquib
 
+</br>
+
 ## Before we Begin:
 
 The Model View Controller can be a daunting subject to cover in your Software Engineering career. Fear no more! This lecture explains the MVC (Model View Controller) in a beginner-friendly manner. Additionally, we'll be using some analogies to ease our minds into thinking of the MVC in a clear, fun way!
+
+</br>
 
 ## What is the MVC?
 
 Created in 1979, The Model View Controller (MVC) is an architectural paradigm that allows us to split the complexity of our applications into 3 structural elements, Model, View, and Controller. Keep in mind, the MVC is **NOT** a framework. 
 
 Like a three-legged stool, each of the 3 structural elements, Model, View, and Controller, are vital in that they are responsible for different parts of how our application processes data. Structurally, the MVC allows us to build our applications while thinking about and controlling how information is being processed.
+
+</br>
 
 ## Why is the MVC Pattern Popular?
 
@@ -29,6 +35,8 @@ The MVC pattern is used by a host of popular frameworks! Here's a quick list of 
 
 **To reiterate, frameworks implement an MVC structure, but MVC is NOT a framework.**
 
+</br>
+
 ## Why Should We Use the MVC?
 
 The MVC is a way for us to organize the requests/returns between our users, servers, and databases. To explain further, the MVC pattern allows us to separate out our application's files so that everything has a specific place and is easy to locate. For instance, we're able to change an element of our application in one, specific file instead of having to make multiple, tedious changes across our application's files.
@@ -40,6 +48,8 @@ In a large project with multiple developers, the MVC allows code to be worked on
 **While there are other approaches similar to MVC such as MVVM, HMVC, and MVP, MVC is the most common pattern we'll come across.**
 
 Moving forward in our understanding of the MVC, let's begin diving into what each of the structural elements actually do!
+
+</br>
 
 ## Model (Our Data)
 
@@ -53,6 +63,7 @@ The Model performs the following functions:
 - Only communicates with the database and controller, never the view.
 - Only element to interact with the database.
 
+</br>
 
 ## View (Our Visuals)
 
@@ -64,6 +75,8 @@ The View performs the following functions:
 - Takes in the request and relevant data from the controller and renders the page; returning the page with the requested information.
 - Typically, View is in the form of HTML/CSS.
 - Only speaks with the controller.
+
+</br>
 
 ## Controller (Our Director)
 
@@ -77,11 +90,15 @@ The Controller performs the following functions:
 - While it does not interact with the database, it will request data from the Model.
 - Invokes the View to render the visual presentation of the page once all data is in hand.
 
+</br>
+
 ## The Router (Traffic Control)
 
 Aside from Model, View, and Controller, it's important that we cover the Router as well. Essentially, the Router is what allows us to handle the routing and directing of requests to the appropriate Controller. The reason is, our application may have multiple Controllers that handle different pages.
 
 In addition to directing requests to the appropriate Controller, the Router also ensures that each request is routed to the correct Controller based on predefined routes and URLs.
+
+</br>
 
 ## How Does this Process Work in Real-time?
 
@@ -96,5 +113,9 @@ In addition to directing requests to the appropriate Controller, the Router also
 ![Step 5](https://github.com/malaz-naquib/Model-View-Controller-For-Beginners/assets/113329798/67f3df7c-ed21-46bf-bbb9-c3580adfc47e)
 
 ________________________________________________________________________________________________________________________________________________
+
+</br>
+
+## Conclusion
 
 Thank you for taking the time to go through this lecture to learn about the wonderful world of MVC! Hopefully, this has provided insight into how we can use the MVC to abstract the complexity of our applications into more organized structures of code. Happy coding!
