@@ -97,4 +97,4 @@ In addition to directing requests to the appropriate Controller, the Router also
 
 ________________________________________________________________________________________________________________________________________________
 
-Thank you for taking the time to go through this lecture and learn about the wonderful world of MVC! Hopefully, this has provided insight into how we can use the MVC to abstract the complexity of our applications into more organized structures of code. Happy coding!
+Thank you for taking the time to go through this lecture to learn about the wonderful world of MVC! Hopefully, this has provided insight into how we can use the MVC to abstract the complexity of our applications into more organized structures of code. Happy coding!
